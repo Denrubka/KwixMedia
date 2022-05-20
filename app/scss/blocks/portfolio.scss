@@ -1,11 +1,45 @@
 //.portfolio
 .portfolio {
+  margin-top: 120px;
+  //.portfolio__title
+  &__title {
+    margin-bottom: 80px;
+    max-width: 1007px;
+  }
+  //.portfolio__tabs
+  &__tabs {
+    display: flex;
+    gap: 84px;
+    margin-bottom: 89px;
+  }
+  //.portfolio__tab
+  &__tab {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    padding: 16px 34px;
+    border: 2px solid #050103;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    //.portfolio__tab:hover
+    &:hover {
+      color: #FFD752;
+      border-color: #FFD752;
+    }
+    //.portfolio__tab--active
+    &--active {
+      color: #FFD752;
+      border-color: #FFD752;
+    }
+  }
   //.portfolio__list
   &__list {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     height: 100%;
+    margin-bottom: 60px;
   }
   //.portfolio__item
   &__item {

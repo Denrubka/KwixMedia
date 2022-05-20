@@ -1,8 +1,8 @@
-
-import {slickSlider} from "../vendor/slick.min.js";
-
-
-slickSlider();
+//
+// import {slickSlider} from "../vendor/slick.min.js";
+//
+//
+// slickSlider();
 
 // export const slickSliderInit = (sliderSelector) => {
 //   $(document).ready(function(){

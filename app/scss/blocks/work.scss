@@ -1,0 +1,40 @@
+//.work
+.work {
+  padding: 90px 0 130px 0;
+  background: url('../img/work/work-bg.jpg')no-repeat center / cover;
+  //.work__title
+  &__title {
+    margin-bottom: 65px;
+  }
+  //.work__list
+  &__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 537px;
+    padding-left: 26px;
+    gap: 187px;
+  }
+  //.work__item
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: url('../img/work/work-elipse.png')no-repeat top right;
+    width: max-content;
+    min-height: 175px;
+    min-width: 170px;
+    //.work__item-title
+    &-title {
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 29px;
+      color: #050103;
+    }
+    //.work__item-img
+    &-img {
+      margin-bottom: 8px;
+    }
+  }
+}

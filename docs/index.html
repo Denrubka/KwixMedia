@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kwix Media</title>
-    <link rel="stylesheet" href="css/main.css?t=1653069794793">
+    <link rel="stylesheet" href="css/main.css?t=1653150443532">
 </head>
 
 <body>
@@ -16,9 +16,9 @@
     <div class="container">
       <div class="header__wrapper">
         <ul class="about__list">
-          <li class="about__item">О нас</li>
-          <li class="about__item">Портфолио</li>
-          <li class="about__item">Контакты</li>
+          <li class="about__item"><a href="#!" class="about__link">О нас</a></li>
+          <li class="about__item"><a href="#!" class="about__link">Портфолио</a></li>
+          <li class="about__item"><a href="#!" class="about__link">Контакты</a></li>
         </ul>
         <ul class="adress__list">
           <li class="adress__item">info@kwix-media.ru</li>
@@ -250,6 +250,13 @@
           </svg>
           <span class="work__item-title">SEO продвижение</span>
         </li>
+        <img src="./img/work/work-arrow1.png" alt="work arrow" class="work__arrow work__arrow1">
+        <img src="./img/work/work-arrow2.png" alt="work arrow" class="work__arrow work__arrow2">
+        <img src="./img/work/work-arrow3.png" alt="work arrow" class="work__arrow work__arrow3">
+        <img src="./img/work/work-arrow4.png" alt="work arrow" class="work__arrow work__arrow4">
+        <img src="./img/work/work-arrow5.png" alt="work arrow" class="work__arrow work__arrow5">
+        <img src="./img/work/work-arrow6.png" alt="work arrow" class="work__arrow work__arrow6">
+        <img src="./img/work/work-arrow7.png" alt="work arrow" class="work__arrow work__arrow7">
       </ul>
     </div>
   </div>
@@ -264,26 +271,34 @@
         <button type="button" class="portfolio__tab">Landing Page</button>
         <button type="button" class="portfolio__tab">Корпоративный сайт</button>
       </div>
-      <ul class="portfolio__list">
-        <li class="portfolio__item portfolio__item--big portfolio__item--big1">
-          <img src="./img/portfolio/portfolio1.jpg" alt="portfolio" class="portfolio__item-img">
-        </li>
-        <li class="portfolio__item portfolio__item--small portfolio__item--small1">
-          <img src="./img/portfolio/portfolio2.jpg" alt="portfolio" class="portfolio__item-img">
-        </li>
-        <li class="portfolio__item portfolio__item--small portfolio__item--small2">
-          <img src="./img/portfolio/portfolio3.jpg" alt="portfolio" class="portfolio__item-img">
-        </li>
-        <li class="portfolio__item portfolio__item--small portfolio__item--small3">
-          <img src="./img/portfolio/portfolio4.jpg" alt="portfolio" class="portfolio__item-img">
-        </li>
-        <li class="portfolio__item portfolio__item--small portfolio__item--small4">
-          <img src="./img/portfolio/portfolio5.jpg" alt="portfolio" class="portfolio__item-img">
-        </li>
-        <li class="portfolio__item portfolio__item--big portfolio__item--big2">
-          <img src="./img/portfolio/portfolio6.jpg" alt="portfolio" class="portfolio__item-img">
-        </li>
-      </ul>
+      <div class="portfolio__content">
+        <div class="portfolio__row">
+          <div class="portfolio__img portfolio__big">
+            <img src="./img/portfolio/portfolio1.png" alt="portfolio" class="portfolio__big-img">
+          </div>
+          <div class="portfolio__smalls">
+            <div class="portfolio__img portfolio__small">
+              <img src="./img/portfolio/portfolio2.png" alt="portfolio" class="portfolio__small-img">
+            </div>
+            <div class="portfolio__img portfolio__small">
+              <img src="./img/portfolio/portfolio3.png" alt="portfolio" class="portfolio__small-img">
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__row portfolio__row--reverse">
+          <div class="portfolio__img portfolio__big">
+            <img src="./img/portfolio/portfolio6.png" alt="portfolio" class="portfolio__big-img">
+          </div>
+          <div class="portfolio__smalls">
+            <div class="portfolio__img portfolio__small">
+              <img src="./img/portfolio/portfolio4.png" alt="portfolio" class="portfolio__small-img">
+            </div>
+            <div class="portfolio__img portfolio__small">
+              <img src="./img/portfolio/portfolio5.png" alt="portfolio" class="portfolio__small-img">
+            </div>
+          </div>
+        </div>
+      </div>
       <a href="#!" class="more-link">Показать все результаты</a>
     </div>
   </div>
@@ -335,7 +350,7 @@
         <img src="./img/audit/audit-line.png" alt="line" class="audit__block-img">
       </div>
       <div class="audit__block audit__block--bottom">
-        <span class="audit__block-title"><span class="audit__block-title-yellow">13%</span>Компаний не имеют маркетинга</span>
+        <span class="audit__block-title"><span class="audit__block-title--yellow">13%</span>Компаний не имеют маркетинга</span>
         <img src="./img/audit/audit-line.png" alt="line" class="audit__block-img">
       </div>
       <div class="audit__content">
@@ -455,6 +470,33 @@
     </div>
   </div>
 </section>
+    <section class="section map">
+  <div class="container">
+    <div class="map__wrapper">
+      <div class="map__block">
+        <h3 class="map__title">Контакты</h3>
+        <span class="map__adress">г. Серпухов, улица Октябрьская д. 12</span>
+        <span class="map__time">пн-вс 09:00 - 20:00</span>
+        <span class="map__tel">+7 (926) 813-36-21</span>
+        <span class="map__mail">info@seo-vk.ru </span>
+        <ul class="map__list">
+          <li class="map__item">
+            <a href="#!" class="map__link">
+              <svg width="30" height="30">
+                <use xlink:href="./img/icons/sprite.svg#whatsapp"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="map__item">
+            <a href="#!" class="map__link">
+              <img src="./img/map/telegram.png" width="30" height="30" alt="Telegram">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
     <footer class="footer">
   <div class="container">
     <div class="footer__wrapper">
@@ -528,6 +570,6 @@
     <!-- подключаем js -->
 <!--    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>-->
 <!--    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
-    <script src="js/main.js?t=1653069794793"></script>
+    <script src="js/main.js?t=1653150443532"></script>
 </body>
 </html>

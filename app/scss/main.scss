@@ -11,10 +11,25 @@ body {
 }
 
 .container  {
-  max-width: 1604px;
+  max-width: 1564px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 30px;
+  @media (max-width: 1600px) {
+    max-width: 1320px;
+  }
+  @media (max-width: 1319px) {
+    max-width: 1140px;
+  }
+  @media (max-width: 1139px) {
+    max-width: 992px;
+  }
+}
+
+.wrapper {
+  @media (max-width: 1600px) {
+    position: relative;
+  }
 }
 
 .title {
